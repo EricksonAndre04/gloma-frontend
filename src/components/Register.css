@@ -1,0 +1,64 @@
+/* Register.css */
+
+.register-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('../assets/fondo1.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.register-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para desenfocar la imagen */
+    z-index: 1;
+}
+
+.register-form-container {
+    position: relative;
+    z-index: 2;
+}
+
+.register-form {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.register-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.register-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.register-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #aa00fa;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.register-form button:hover {
+    background-color: #aa00fa;
+}

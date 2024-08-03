@@ -1,0 +1,124 @@
+/* Login.css */
+
+.login-container {
+    display: flex;
+    justify-content: center; /* Centra el contenedor principal */
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+    padding: 0 20px; /* Ajusta el padding para dar espacio a los lados */
+}
+
+.login-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-image img {
+    width: 80%; /* Ajusta el tamaño según sea necesario */
+    max-width: 900px; /* Ajusta el tamaño máximo según sea necesario */
+}
+
+.login-form {
+    flex: 1;
+    max-width: 350px; /* Limita el ancho del formulario */
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 0 auto; /* Centra el formulario automáticamente */
+    /* Ajusta el margen izquierdo para mover el formulario más al centro */
+    margin-left: 10%; /* Ajusta este valor según sea necesario */
+    margin-right: 10%; /* Ajusta este valor según sea necesario */
+}
+
+.login-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.login-form p {
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.password-container {
+    position: relative;
+}
+
+.password-icon, .show-password-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.forgot-password {
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+.forgot-password a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff3b30;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.remember-me input {
+    margin-right: 10px;
+}
+
+.google-login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.google-icon {
+    margin-right: 10px;
+}
+
+.register-link {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.register-link a {
+    color: #007bff;
+    text-decoration: none;
+}
